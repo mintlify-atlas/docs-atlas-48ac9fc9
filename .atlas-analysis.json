@@ -1,0 +1,104 @@
+{
+  "projectType": "frontend",
+  "projectName": "CowSwap",
+  "projectDescription": "CoW Protocol's first trading interface for gasless, MEV-protected token swaps with peer-to-peer settlement.",
+  "theme": "almond",
+  "primaryColor": "#585858",
+  "lightColor": "#1e1e1e",
+  "darkColor": "#c6c6c6",
+  "navigation": {
+    "tabs": [
+      {
+        "tab": "Documentation",
+        "groups": [
+          {
+            "group": "Get Started",
+            "pages": [
+              "introduction",
+              "quickstart",
+              "installation"
+            ]
+          },
+          {
+            "group": "Core Features",
+            "pages": [
+              "features/swap",
+              "features/limit-orders",
+              "features/twap",
+              "features/hooks",
+              "features/bridge"
+            ]
+          },
+          {
+            "group": "Components",
+            "pages": [
+              "components/overview",
+              "components/trade-widget",
+              "components/token-selector",
+              "components/order-table"
+            ]
+          },
+          {
+            "group": "Architecture",
+            "pages": [
+              "architecture/overview",
+              "architecture/modules",
+              "architecture/state-management",
+              "architecture/styling"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Widget Integration",
+        "groups": [
+          {
+            "group": "Widget",
+            "pages": [
+              "widget/overview",
+              "widget/installation",
+              "widget/configuration",
+              "widget/customization",
+              "widget/examples"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Development",
+        "groups": [
+          {
+            "group": "Developer Guide",
+            "pages": [
+              "development/setup",
+              "development/commands",
+              "development/module-structure",
+              "development/testing",
+              "development/contributing"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "keyFeatures": [
+    "Gasless token swaps with MEV protection",
+    "Limit orders for automated trading",
+    "TWAP (Time-Weighted Average Price) orders",
+    "Pre/post-swap hooks for custom logic",
+    "Cross-chain bridging integration",
+    "Embeddable widget for third-party integration",
+    "Multi-chain support (Ethereum, Gnosis Chain, Arbitrum, etc.)",
+    "Advanced order types and configurations"
+  ],
+  "publicApiSurface": [
+    "createCowSwapWidget (Widget integration)",
+    "CowSwapWidgetParams (Widget configuration)",
+    "Trade modules (swap, limitOrders, twap, hooks)",
+    "Token management utilities",
+    "Order tracking and notifications",
+    "Multi-chain wallet connection",
+    "UI component library (@cowprotocol/ui)",
+    "Analytics and event tracking"
+  ]
+}
